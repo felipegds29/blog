@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 :root {
     --preto: #0d1b2aff;
     --branco: rgb(255, 255, 255);
-    --verde: rgb(113, 95, 192);
+    --azul-claro: rgb(119, 196, 226);
     --vermelho: rgb(252, 5, 5);
     --titulo: "Montenegrin Gothic One", serif;
     --texto: "Roboto Condensed", sans-serif;
@@ -19,4 +25,13 @@ header{
     display: flex;
     justify-content: space-around;
     color: var(--branco);
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px;
+    color:var(--branco) ;
+    text-transform: uppercase;
+    font-size: 14px;
 }
