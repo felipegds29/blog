@@ -25,6 +25,7 @@ header{
     display: flex;
     justify-content: space-around;
     color: var(--branco);
+    padding: 10px;
 }
 .menu{
     display: flex;
@@ -34,4 +35,7 @@ header{
     color:var(--branco) ;
     text-transform: uppercase;
     font-size: 14px;
+}
+.img-capa{
+    width: 100%;
 }
